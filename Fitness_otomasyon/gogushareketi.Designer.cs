@@ -45,7 +45,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image"))); //
             this.pictureBox4.Location = new System.Drawing.Point(928, 298);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox4.Name = "pictureBox4";
