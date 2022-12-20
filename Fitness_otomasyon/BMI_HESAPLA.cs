@@ -22,9 +22,9 @@ namespace Fitness_otomasyon
             int kilo;
             Double boy;
             float sonuç;
-            kilo = Convert.ToInt32(textBox2.Text);
-            boy = Convert.ToDouble(textBox1.Text);
-            sonuç = (float)(kilo / (boy * boy));
+            kilo = Convert.ToInt32(textBox2.Text); //int e dönüştürme işlemi
+            boy = Convert.ToDouble(textBox1.Text); //int e dönüştürme işlemi
+            sonuç = (float)(kilo / (boy * boy));   // vücut kitle endeksi formülü
 
             if (sonuç < 18)
             {
