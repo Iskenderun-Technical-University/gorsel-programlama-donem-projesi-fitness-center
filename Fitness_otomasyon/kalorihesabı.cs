@@ -21,9 +21,9 @@ namespace Fitness_otomasyon
         {
             int kilo, boy, yaş;
             ;
-            float sonuç,bmh;
-            boy = Convert.ToInt32(textBox1.Text);
-            kilo = Convert.ToInt32(textBox2.Text);
+            float sonuç,bmh;      //float aldık çünkü işlemler ve sonuç küsüratlı
+            boy = Convert.ToInt32(textBox1.Text);             //int e dönüştürme işlemi
+            kilo = Convert.ToInt32(textBox2.Text);            //int e dönüştürme işlemi
             yaş= Convert.ToInt32(textBox3.Text);
 
 
